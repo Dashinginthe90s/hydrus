@@ -39,6 +39,7 @@ services:
     environment:
       - UID=1000
       - GID=1000
+      - TZ=UTC #change to your own timezone
     volumes:
       - hydrus-client:/opt/hydrus/db
     tmpfs:
